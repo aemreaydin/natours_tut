@@ -1,0 +1,54 @@
+.row {
+    max-width: $grid-width;
+    color: $color-white;
+    margin: 0 auto;
+
+    &:not(:last-child) {
+        margin-bottom: $grid-row-margin;
+    }
+
+    @include clearfix;
+
+    [class^="col-"] {
+        background-color: blue;
+        float: left;      
+
+        &:not(:last-child) {
+            margin-right: $grid-col-margin;
+        }
+    }
+    
+    .col-sm {
+        height: $grid-height-small;
+    }
+    .col-md {
+        height: $grid-height-medium;
+    }
+    .col-lg {
+        height: $grid-height-large;
+    }
+    .col-xl {
+        height: $grid-height-xlarge;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .col-6 {
+        width: calc((100% - #{$grid-col-margin}) / 2);
+    }
+
+    .col-4 {
+        width: calc((100% - 2 * #{$grid-col-margin}) / 3);
+    }
+
+    .col-3 {
+        width: calc((100% - 3 * #{$grid-col-margin}) / 4);
+    }
+
+    .col-2 {
+        width: calc((100% - 5 * #{$grid-col-margin}) / 6);
+    }
+}
+

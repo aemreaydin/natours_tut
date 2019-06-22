@@ -114,37 +114,14 @@ body {
 
 .row {
   max-width: 114rem;
+  background: #777777;
   color: #FFFFFF;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 5rem; }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .row [class^="col-"] {
-    background-color: blue;
-    float: left; }
-    .row [class^="col-"]:not(:last-child) {
-      margin-right: 2rem; }
-  .row .col-sm {
-    height: 2rem; }
-  .row .col-md {
-    height: 4rem; }
-  .row .col-lg {
-    height: 8rem; }
-  .row .col-xl {
-    height: 16rem; }
-  .row .col-12 {
-    width: 100%; }
-  .row .col-6 {
-    width: calc((100% - 2rem) / 2); }
-  .row .col-4 {
-    width: calc((100% - 2 * 2rem) / 3); }
-  .row .col-3 {
-    width: calc((100% - 3 * 2rem) / 4); }
   .row .col-2 {
-    width: calc((100% - 5 * 2rem) / 6); }
+    width: calc((100% - 2rem) / 2);
+    float: left; }
 
 .header {
   height: 95vh;

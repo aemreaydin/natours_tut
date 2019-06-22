@@ -127,14 +127,6 @@ body {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 2rem; }
-  .row .col-sm {
-    height: 2rem; }
-  .row .col-md {
-    height: 4rem; }
-  .row .col-lg {
-    height: 8rem; }
-  .row .col-xl {
-    height: 16rem; }
   .row .col-12 {
     width: 100%; }
   .row .col-6 {
