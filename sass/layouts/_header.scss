@@ -12,8 +12,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
     /* Fix for chrome jagged edges */
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+    @include backfaceVisHidden;
 
     &__logo-box {
         position: absolute;

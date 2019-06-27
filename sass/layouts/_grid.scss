@@ -9,13 +9,12 @@
     @include clearfix;
 
     [class^="col-"] {
-        float: left;      
+        float: left;
 
         &:not(:last-child) {
             margin-right: $grid-col-margin;
         }
     }
-    
     .col-sm {
         height: $grid-height-small;
     }
