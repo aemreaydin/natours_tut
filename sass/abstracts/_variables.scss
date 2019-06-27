@@ -1,10 +1,13 @@
+// COLORS
 $color-primary        : #55c57a;
 $color-primary-light  : #7ed56f;
 $color-primary-dark   : #28b485;
+$color-grey-light-1   : #F7F7F7;
 $color-grey-dark      : #777777;
 $color-white          : #FFFFFF;
 $color-black          : #000000;
 
+// GRIDS
 $grid-width         : 114rem;
 $grid-row-margin    : 5rem;
 $grid-col-margin    : 2rem;
@@ -13,3 +16,6 @@ $grid-height-small    : 2rem;
 $grid-height-medium   : 4rem;
 $grid-height-large    : 8rem;
 $grid-height-xlarge   : 16rem;
+
+// FONTS
+$default-font-size: 1.6rem;

@@ -33,21 +33,3 @@
         text-align: center;
     }
 }
-
-.header-text {
-    margin-bottom: 6rem;
-
-    &--primary {
-        display: block;
-
-        animation: moveFromLeft 1s ease-in-out;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-    }
-
-    &--secondary {
-        display: block;
-
-        animation: moveFromRight 1s ease-in-out;
-    }
-}
