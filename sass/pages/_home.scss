@@ -9,15 +9,23 @@
     background-image: linear-gradient(to bottom right,
         rgba($color-primary-light, .8),
         rgba($color-primary-dark, .8)),
-        url('../../img/nat-4.jpg');
+        url('../img/nat-4.jpg');
     background-size: cover;
     padding: 20rem;
-    margin-top: -13vh;
+    margin-top: -12rem;
 
     transform: skewY(-7deg);
     @include backfaceVisHidden;
 
+    outline: 1px solid transparent;
+
     & > * {
         transform: skewY(7deg);
     }
+}
+
+.section-tours {
+    background-color: $color-grey-light-1;
+    padding: 25rem 0 50rem 0;
+    margin-top: -12rem;
 }

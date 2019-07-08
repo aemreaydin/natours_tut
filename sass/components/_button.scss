@@ -8,7 +8,7 @@
         text-transform: uppercase;
         transition: all .25s;
         font-size: $default-font-size;
-        font-weight: 700;
+        font-weight: 400;
     }
     &:hover {
         transform: translateY(-.2rem);
@@ -25,7 +25,6 @@
     }
     &::before {
         content: '';
-        background-color: $color-white;
         position: absolute;
         top: 0;
         left: 0;
@@ -48,6 +47,16 @@
 
         &::before {
             background-color: $color-white;
+        }
+    }
+    &--green {
+        position: relative;
+        background-color: $color-primary;
+        color: $color-white;
+        z-index: 1;
+
+        &::before {
+            background-color: $color-primary;
         }
     }
 }

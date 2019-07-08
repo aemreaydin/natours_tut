@@ -1,10 +1,18 @@
 // COLORS
-$color-primary        : #55c57a;
 $color-primary-light  : #7ed56f;
+$color-primary        : #55c57a;
 $color-primary-dark   : #28b485;
-$color-grey-light-1   : #F7F7F7;
-$color-grey-dark      : #777777;
+$color-secondary-light: #FFB900;
+$color-secondary      : #FF9818;
+$color-secondary-dark : #FF7730;
+$color-tertiary-light : #2998FF;
+$color-tertiary       : #406EFD;
+$color-tertiary-dark  : #5643FA;
+
 $color-white          : #FFFFFF;
+$color-grey-light-1   : #F7F7F7;
+$color-grey-light-2   : #EEEEEE;
+$color-grey-dark      : #777777;
 $color-black          : #000000;
 
 // GRIDS
@@ -19,3 +27,6 @@ $grid-height-xlarge   : 16rem;
 
 // FONTS
 $default-font-size: 1.6rem;
+
+// CARDS
+$card-height: 52rem;
